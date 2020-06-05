@@ -54,7 +54,7 @@ class Points {
     const trx = await knex.transaction();
 
     const point = {
-      image: 'place holder',
+      image: 'https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
       name,
       email,
       whatsapp,
