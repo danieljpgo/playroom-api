@@ -1,6 +1,4 @@
-const config = {
+export default {
   port: 3333,
   adress: ''
 }
-
-export default config;

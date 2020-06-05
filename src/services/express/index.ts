@@ -8,7 +8,9 @@ export default (routes: Router) => {
   app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')))
   app.use(cors());
   app.use(express.json());
-  app.use(routes)
+  app.use(routes);
+
+  // @TODO Handle errors
 
   return app;
 }

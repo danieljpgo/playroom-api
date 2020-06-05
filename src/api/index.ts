@@ -4,7 +4,7 @@ import points from './points';
 
 const router = Router();
 
-router.use('/items', items)
-router.use('/points', points)
+router.use('/items', items);
+router.use('/points', points);
 
 export default router;

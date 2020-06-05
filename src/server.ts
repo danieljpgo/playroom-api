@@ -4,6 +4,6 @@ import config from './config';
 
 const { port } = config;
 
-const app = express(api)
+const app = express(api);
 
 app.listen(port);
