@@ -51,7 +51,7 @@ export const create = async (request: Request, response: Response) => {
     longitude,
     city,
     state,
-    items
+    items,
   } = request.body;
 
   const point = {
@@ -69,15 +69,18 @@ export const create = async (request: Request, response: Response) => {
 
   const pointInsertedId = await trx('points').insert(point);
 
-  const point_id = pointInsertedId[0]
-  const pointItems = items.map((item_id: number) => ({ item_id, point_id }))
+  const point_id = pointInsertedId[0];
+  const pointItems = items.map((item_id: number) => ({ item_id, point_id }));
 
-  await trx('point_items').insert(pointItems);
+  try {
+    await trx('point_items').insert(pointItems);
+    await trx.commit();
+  } catch (error) {
+    await trx.rollback();
+    return response.status(400).json({
+      message: 'Failed to insert into the poin_items table, check if the items entered are valid.'
+    })
+  }
 
-  await trx.commit();
-
-  return response.json({
-    id: point_id,
-    ...point,
-  })
+  return response.json({ id: point_id, ...point })
 }
