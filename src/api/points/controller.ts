@@ -1,5 +1,6 @@
 import knex from '../../database/connection';
 import { Response, Request } from 'express';
+import Point from '../../models/point';
 
 export const index = async (request: Request, response: Response) => {
   const { city, state, items } = request.query;
@@ -54,7 +55,7 @@ export const create = async (request: Request, response: Response) => {
     items,
   } = request.body;
 
-  const point = {
+  const point: Point = {
     image: 'https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     name,
     email,
