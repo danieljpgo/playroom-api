@@ -1,6 +1,9 @@
 import knex from '../../database/connection';
 import { Response, Request } from 'express';
 import Point from '../../models/point';
+import config from '../../config'
+
+const { port, adress } = config
 
 export const index = async (request: Request, response: Response) => {
   const { city, state, items } = request.query;
@@ -19,7 +22,12 @@ export const index = async (request: Request, response: Response) => {
       .distinct()
       .select('points.*');
 
-  return response.json(points);
+  const serializedPoints = points.map(points => ({
+    ...points,
+    image_url: `${adress}${port}/uploads/points/${points.image}`
+  }))
+
+  return response.json(serializedPoints);
 }
 
 export const show = async (request: Request, response: Response) => {
@@ -40,7 +48,12 @@ export const show = async (request: Request, response: Response) => {
       .where('point_items.point_id', id)
       .select('items.title');
 
-  return response.json({ point, items });
+  const serializedPoint = {
+    ...point,
+    image_url: `${adress}${port}/uploads/points/${point.image}`
+  }
+
+  return response.json({ point: serializedPoint, items });
 }
 
 export const create = async (request: Request, response: Response) => {
@@ -56,7 +69,7 @@ export const create = async (request: Request, response: Response) => {
   } = request.body;
 
   const point: Point = {
-    image: 'https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
+    image: request.file.filename,
     name,
     email,
     whatsapp,
@@ -71,7 +84,10 @@ export const create = async (request: Request, response: Response) => {
   const pointInsertedId = await trx('points').insert(point);
 
   const point_id = pointInsertedId[0];
-  const pointItems = items.map((item_id: number) => ({ item_id, point_id }));
+  const pointItems = items
+    .split(',')
+    .map((item: string) => Number(item.trim()))
+    .map((item_id: number) => ({ item_id, point_id }));
 
   try {
     await trx('point_items').insert(pointItems);
