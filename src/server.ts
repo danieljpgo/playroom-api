@@ -8,5 +8,4 @@ const { port } = config;
 const app = express(api);
 
 app.use(errors());
-
 app.listen(port);
