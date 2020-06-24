@@ -2,7 +2,7 @@
    <!-- <img src=".github/logo.png" width="150"/> -->
 </p>
 
-# Ecoleta
+# Playroom
 
 > under construction :recycle:
 
@@ -28,11 +28,12 @@ under construction
 
 # :runner: Getting Started
 
-Run the transactions in order to configure the database schema
+under construction 
+<!-- Run the transactions in order to configure the database schema
 under construction 
 
 Run the following command in order to start the application in a development environment:
-under construction 
+under construction  -->
 
 ## Status Codes
 
