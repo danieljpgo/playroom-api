@@ -86,6 +86,7 @@ The main technologies used to develop the project were:
 under construction 
 
 ## License
-Released in 2020. This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/LICENSE).
+This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/LICENSE).
+Released in 2020.
 
 Developed by [Daniel Jorge](https://github.com/danieljpgo)
