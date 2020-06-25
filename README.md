@@ -83,7 +83,11 @@ The main technologies used to develop the project were:
 - [Typescript](https://www.typescriptlang.org/)
 
 ## Installation
-under construction 
+under construction
+
+npm run knex:migrate
+npm run knex:seed
+
 
 ## License
 This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/blob/LICENSE).

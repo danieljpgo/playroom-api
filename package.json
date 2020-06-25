@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danieljpgo/ecoleta-backend.git"
+    "url": "git+https://github.com/danieljpgo/playroom-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danieljpgo/ecoleta-backend/issues"
+    "url": "https://github.com/danieljpgo/playroom-backend/issues"
   },
-  "homepage": "https://github.com/danieljpgo/ecoleta-backend#readme",
+  "homepage": "https://github.com/danieljpgo/playroom-backend#readme",
   "dependencies": {
     "celebrate": "^12.1.1",
     "cors": "^2.8.5",
