@@ -87,6 +87,7 @@ under construction
 
 ## License
 This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/blob/LICENSE).
+
 Released in 2020.
 
 Developed by [Daniel Jorge](https://github.com/danieljpgo)
