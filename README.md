@@ -47,9 +47,11 @@
    <a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#integrations">Integrations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#license">License</a>
 </p>
+
+Getting Started
 
 <h1 align="center">
    <img
@@ -82,16 +84,42 @@ The main technologies used to develop the project were:
 - [Joi](https://hapi.dev/module/joi/)
 - [Typescript](https://www.typescriptlang.org/)
 
-## Installation
-under construction
+## Getting Started
+First, make sure you have **[Node](https://nodejs.org/en/)**, then clone the project with:
+```
+git clone https://github.com/danieljpgo/playroom-backend.git
+```
 
+With **[npm](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/)**, install dependencies:
+```
+npm install
+```
+Database **migrations**:
+
+```
+// script
 npm run knex:migrate
+// or 
+knex --knexfile knexfile.ts migrate:latest
+```
+Database **seeding**:
+```
+// script
 npm run knex:seed
-
+// or
+knex --knexfile knexfile.ts seed:run
+```
+In order to **start** the application in a development environment, execute:
+```
+// script
+npm run dev
+// or
+ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts
+```
+Any questions or problems access the links to the main technologies mentioned in <a href="#technologies">Technologies</a>.
 
 ## License
 This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/blob/LICENSE).
-
 Released in 2020.
 
 Developed by [Daniel Jorge](https://github.com/danieljpgo)
