@@ -43,12 +43,12 @@
 ----
 
 <p align="center">
-   <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#integrations">Integrations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#license">License</a>
+   <a href="#jigsaw-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#rocket-wfeatures">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#computer-integrations">Integrations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#man_technologist-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#runner-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#page_with_curl-license">License</a>
 </p>
 
 <h1 align="center">
@@ -59,21 +59,21 @@
       width="600px" />
 </h1>
 
-## Project
+## :jigsaw: Project
 under construction 
 
-## Features
+## :rocket: Features
 The main features of the project are:
 - **Create** and **read** donations points.
 - **Upload** images of donations points.
 - **Read** donation item categories.
 
-## Integrations
+## :computer: Integrations
 This project is part of the **Playroom** system, the other projects are located at:
 - [Playroom Frontend](https://github.com/danieljpgo/playroom-frontend)
 - [Playroom Mobile](https://github.com/danieljpgo/playroom-mobile)
 
-## Technologies
+## :man_technologist: Technologies
 The main technologies used to develop the project were:
 - [Node](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
@@ -82,7 +82,7 @@ The main technologies used to develop the project were:
 - [Joi](https://hapi.dev/module/joi/)
 - [Typescript](https://www.typescriptlang.org/)
 
-## Getting Started
+## :runner: Getting Started
 First, make sure you have **[Node](https://nodejs.org/en/)**, then clone the project with:
 ```
 git clone https://github.com/danieljpgo/playroom-backend.git
@@ -107,7 +107,7 @@ npm run knex:seed
 // or
 knex --knexfile knexfile.ts seed:run
 ```
-Use your machine's ip in the config.ts file:
+Use your **machine's ip** in the **config.ts** file:
 ```
 const config = {
   port: 3333,
@@ -123,7 +123,7 @@ ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts
 ```
 Any questions or problems access the links to the main technologies mentioned in <a href="#technologies">Technologies</a>.
 
-## License
+## :page_with_curl: License
 This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/blob/LICENSE).
 Released in 2020.
 
