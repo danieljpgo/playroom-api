@@ -51,8 +51,6 @@
    <a href="#license">License</a>
 </p>
 
-Getting Started
-
 <h1 align="center">
    <img
       alt="kids jumping rope"
@@ -108,6 +106,13 @@ Database **seeding**:
 npm run knex:seed
 // or
 knex --knexfile knexfile.ts seed:run
+```
+Use your machine's ip in the config.ts file:
+```
+const config = {
+  port: 3333,
+  adress: 'http://192.168.0.56:' // change here
+}
 ```
 In order to **start** the application in a development environment, execute:
 ```
