@@ -59,7 +59,7 @@
       width="600px" />
 </h1>
 
-## :jigsaw: Project
+## :memo: Project
 under construction 
 
 ## :rocket: Features
