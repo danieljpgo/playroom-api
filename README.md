@@ -44,7 +44,7 @@
 
 <p align="center">
    <a href="#memo-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#rocket-wfeatures">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#rocket-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#computer-integrations">Integrations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#man_technologist-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#runner-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -55,7 +55,7 @@
    <img
       alt="kids jumping rope"
       title="Playroom"
-      src=".github/home-background.svg"
+      src=".github/backend-final.gif"
       width="600px" />
 </h1>
 
@@ -125,6 +125,6 @@ Any questions or problems access the links to the main technologies mentioned in
 
 ## :page_with_curl: License
 This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/blob/LICENSE).
-Released in 2020.
+<div>Released in 2020.</div>
 
 Developed by [Daniel Jorge](https://github.com/danieljpgo)
