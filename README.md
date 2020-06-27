@@ -124,7 +124,7 @@ ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts
 Any questions or problems access the links to the main technologies mentioned in <a href="#technologies">Technologies</a>.
 
 ## :page_with_curl: License
-This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/master/blob/LICENSE).
+This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/blob/master/LICENSE).
 <div>Released in 2020.</div>
 
 Developed by [Daniel Jorge](https://github.com/danieljpgo)
