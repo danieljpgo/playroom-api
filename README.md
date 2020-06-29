@@ -66,6 +66,7 @@ Project aims to list toy donation companies and institutions, offering an easily
 The main features of the project are:
 - **Create** and **read** donations points.
 - **Upload** images of donations points.
+- **Seeding** donation item categories.
 - **Read** donation item categories.
 
 ## :computer: Integrations
