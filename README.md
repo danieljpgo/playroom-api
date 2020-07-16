@@ -18,22 +18,22 @@
    </a>
    <img
       alt="languages"
-      src="https://img.shields.io/github/languages/count/danieljpgo/playroom-backend?color=0081A7&style=flat-square&labelColor=3f3d56"
+      src="https://img.shields.io/github/languages/count/danieljpgo/playroom-api?color=0081A7&style=flat-square&labelColor=3f3d56"
    />
-   <a href="https://github.com/danieljpgo/playroom-backend/stargazers">
+   <a href="https://github.com/danieljpgo/playroom-api/stargazers">
       <img
          alt="stars"
-         src="https://img.shields.io/github/stars/danieljpgo/playroom-backend?color=0081A7&style=flat-square&labelColor=3f3d56"/>
+         src="https://img.shields.io/github/stars/danieljpgo/playroom-api?color=0081A7&style=flat-square&labelColor=3f3d56"/>
    </a>
-   <a href="https://github.com/danieljpgo/playroom-backend/network/members">
+   <a href="https://github.com/danieljpgo/playroom-api/network/members">
       <img
          alt="forks"
-         src="https://img.shields.io/github/forks/danieljpgo/playroom-backend?color=0081A7&style=flat-square&labelColor=3f3d56"/>
+         src="https://img.shields.io/github/forks/danieljpgo/playroom-api?color=0081A7&style=flat-square&labelColor=3f3d56"/>
    </a>
-   <a href="https://github.com/danieljpgo/playroom-backend/graphs/contributors">
+   <a href="https://github.com/danieljpgo/playroom-api/graphs/contributors">
       <img
          alt="contributors"
-         src="https://img.shields.io/github/contributors/danieljpgo/playroom-backend?color=0081A7&style=flat-square&labelColor=3f3d56"/>
+         src="https://img.shields.io/github/contributors/danieljpgo/playroom-api?color=0081A7&style=flat-square&labelColor=3f3d56"/>
    </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-0081A7?style=flat-square&labelColor=3f3d56">
 </p>
@@ -86,7 +86,7 @@ The main technologies used to develop the project were:
 ## :runner: Getting Started
 First, make sure you have **[Node](https://nodejs.org/en/)**, then clone the project with:
 ```
-git clone https://github.com/danieljpgo/playroom-backend.git
+git clone https://github.com/danieljpgo/playroom-api.git
 ```
 
 With **[npm](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/)**, install dependencies:
@@ -125,7 +125,7 @@ ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts
 Any questions or problems access the links to the main technologies mentioned in <a href="#technologies">Technologies</a>.
 
 ## :page_with_curl: License
-This project is under the [MIT license](https://github.com/danieljpgo/playroom-backend/blob/master/LICENSE).
+This project is under the [MIT license](https://github.com/danieljpgo/playroom-api/blob/master/LICENSE).
 <div>Released in 2020.</div>
 
 Developed by [Daniel Jorge](https://github.com/danieljpgo)
