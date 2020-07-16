@@ -7,7 +7,7 @@
    &nbsp;<div align="center">Playroom</div>
 </h1>
  
-<h1> Playroom Backend </h1>
+<h1> Playroom Api </h1>
 
 <p align="left">
    <a href="https://github.com/danieljpgo">
@@ -40,7 +40,7 @@
 
 > A marketplace for finding and registering toy donation places. :jigsaw:
 
-----
+ &nbsp;
 
 <p align="center">
    <a href="#memo-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -71,8 +71,8 @@ The main features of the project are:
 
 ## :computer: Integrations
 This project is part of the **Playroom** system, the other projects are located at:
-- [Playroom Frontend](https://github.com/danieljpgo/playroom-frontend)
-- [Playroom Mobile](https://github.com/danieljpgo/playroom-mobile)
+- [Playroom Web](https://github.com/danieljpgo/playroom-web)
+- [Playroom App](https://github.com/danieljpgo/playroom-app)
 
 ## :man_technologist: Technologies
 The main technologies used to develop the project were:
