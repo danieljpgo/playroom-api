@@ -128,4 +128,4 @@ Any questions or problems access the links to the main technologies mentioned in
 This project is under the [MIT license](https://github.com/danieljpgo/playroom-api/blob/master/LICENSE).
 <div>Released in 2020.</div>
 
-Developed by [Daniel Jorge](https://github.com/danieljpgo)
+Make with ❤️ by [Daniel Jorge](https://github.com/danieljpgo)
